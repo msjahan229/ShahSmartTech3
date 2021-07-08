@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class HrmAutomaion {
-
+pleae checked here
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
@@ -15,7 +15,7 @@ public class HrmAutomaion {
 		String url = "https://opensource-demo.orangehrmlive.com/index.php/auth/login";
 		driver.get(url);
 		
-		driver.findElement(By.name("txtUsername")).sendKeys("Admin");
+		driver.findElement(By.name("txtUsername")).sendKeys("Admin"); ++ daon 
 		driver.findElement(By.name("txtPassword")).sendKeys("admin123");
 		try {
 			Thread.sleep(10000);
